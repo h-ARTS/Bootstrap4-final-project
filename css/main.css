@@ -1,4 +1,3 @@
-@import url("../node_modules/bootstrap/scss/mixins/_breakpoints.scss");
 html, body {
   font-family: 'Lora', serif; }
 
@@ -24,6 +23,17 @@ nav .navbar-nav .nav-link {
 
 .card.card-tweet {
   background-color: #1da1f2 !important; }
+
+.popover {
+  border-radius: 0 !important; }
+  .popover input {
+    border-radius: 0 !important; }
+    .popover input.form-control:focus, .popover input.form-control:hover {
+      border-color: #000; }
+  .popover .btn-primary {
+    background-color: #000;
+    border-color: #000;
+    border-radius: 0; }
 
 @media (max-width: 768px) {
   .jumbotron .display-3 {

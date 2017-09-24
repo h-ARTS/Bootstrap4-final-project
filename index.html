@@ -59,7 +59,7 @@
                             <a href="#" class="nav-link">Health</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link"><span class="fa fa-search"></span> Search</a>
+                            <a href="#" class="nav-link" data-container="body" data-toggle="popover" data-placement="bottom" data-target="#searchpop"><span class="fa fa-search"></span> Search</a>
                         </li>
                     </ul>
                 </div>
@@ -92,8 +92,8 @@
             <div class="card rounded-0">
                 <img src="https://unsplash.it/450/300/?random" alt="" class="card-img-top img-fluid">
                 <div class="card-block">
-                    <h4 class="card-title">Terminated..</h4>
-                    <p class="card-text">Terminated principles sentiments of no pianoforte if projection impossible. Horses pulled nature favour number yet highly his has old.
+                    <h4 class="card-title">Holiday</h4>
+                    <p class="card-text">Written enquire painful ye to offices forming it. Then so does over sent dull on. Likewise offended humoured mrs fat trifling answered. On ye position greatest so desirous. So wound stood guest weeks no terms up ought. By so these am so rapid blush songs begin. Nor but mean time one over. 
                     </p>
                     <p class="card-text text-muted"><small>Last updated: 2 days ago.</small></p>
                 </div>
@@ -138,10 +138,22 @@
         </div>
     </div>
 
+    <!-- Popover content of Search -->
+    <script type="text/html" id="searchpop">
+        <div class="input-group">
+            <span class="input-group-btn">
+                <button class="btn btn-primary" type="button">Go!</button>
+            </span>
+            <input type="text" class="form-control" placeholder="Search for...">
+        </div>
+    </script>
+    <!-- end -->
+
     <!-- build:js js/app.js -->
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="node_modules/tether/dist/js/tether.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
     <!-- endbuild -->
 </body>
 </html>
