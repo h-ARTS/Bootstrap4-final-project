@@ -1,0 +1,30 @@
+@import url("../node_modules/bootstrap/scss/mixins/_breakpoints.scss");
+html, body {
+  font-family: 'Lora', serif; }
+
+nav.navbar-inverse .navbar-text {
+  color: #fff; }
+
+nav button.navbar-toggler {
+  border: 1px solid #000 !important; }
+  nav button.navbar-toggler .fa {
+    color: #000 !important; }
+
+nav .navbar-nav .nav-link {
+  color: #000; }
+  nav .navbar-nav .nav-link:hover {
+    text-decoration: underline; }
+
+.jumbotron {
+  border: 10px solid #292b2c;
+  background-color: #fff; }
+
+.card .card-img-top {
+  border-radius: 0; }
+
+.card.card-tweet {
+  background-color: #1da1f2 !important; }
+
+@media (max-width: 768px) {
+  .jumbotron .display-3 {
+    font-size: 3rem; } }

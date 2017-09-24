@@ -1,0 +1,57 @@
+@import url('../node_modules/bootstrap/scss/mixins/_breakpoints.scss');
+
+// variables
+$black: #000;
+$white: #fff;
+$darkgrey: #292b2c;
+$twitterblue: #1da1f2;
+
+html, body {
+    font-family: 'Lora', serif;
+}
+
+nav {
+    &.navbar-inverse {
+        .navbar-text {
+            color: $white;
+        }
+    }
+    button {
+        &.navbar-toggler {
+            border: 1px solid $black !important;
+            .fa {
+                color: $black !important;
+            }
+        }
+    }
+    .navbar-nav {
+        .nav-link {
+            color: $black;
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+}
+
+.jumbotron {
+    border: 10px solid $darkgrey;
+    background-color: $white;
+}
+
+.card {
+    .card-img-top {
+        border-radius: 0;        
+    }
+    &.card-tweet {
+        background-color: $twitterblue !important;
+    }
+}
+
+@media (max-width: 768px) { 
+    .jumbotron {
+        .display-3 {
+            font-size: 3rem;
+        }
+    }
+}
